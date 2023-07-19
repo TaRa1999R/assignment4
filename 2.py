@@ -7,7 +7,7 @@ while True :
     baqi_mande = number % factorial_factor
 
     if baqi_mande != 0 :
-        Print (" ❌ NO ❌ ")
+        print (" ❌ NO ❌ ")
         break
 
     else :
