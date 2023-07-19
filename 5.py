@@ -1,6 +1,7 @@
-# print (" 🔁 INVERS A LIST 🔁 ")
+# print (" 🚫 REMOVE REPEATED SENTENCES FROM A LIST 🚫 ")
 # print (" Enter 'done' to see the result ")
 # print (" Enter numbers as input ")
+
 # first = []
 # second = []
 
@@ -14,9 +15,9 @@
 #         vurudi = int ( vurudi )
 #         first.append ( vurudi )
 
-
-# for i in range (len(first)-1, -1, -1 ) :
-#     second.append ( first[i] )
+# for sentence in first :
+#     if sentence not in second :
+#         second.append ( sentence )
 
 # print (" Your entered list is : ", first )
-# print (" The inversed list is :", second)
+# print (" New list is :", second)
