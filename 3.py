@@ -11,7 +11,7 @@ f.close ()
 
 L = instaloader.Instaloader ()
 
-username = print (" Please enter your instagram username : ")
+username = input (" Please enter your instagram username : ")
 password = getpass.getpass (" Please enter your instagram password : ")
 
 L.login ( username, password )
